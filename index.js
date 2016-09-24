@@ -1,3 +1,4 @@
+"use strict";
 const Hogan = require("hogan.js");
 
 class Greenman {
