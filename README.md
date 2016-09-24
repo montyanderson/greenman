@@ -1,6 +1,6 @@
 # greenman
 
-View manager for [Mustache](https://mustache.github.io/) templates using (hogan.js)[https://twitter.github.io/hogan.js/];
+View manager for [Mustache](https://mustache.github.io/) templates using [hogan.js](https://twitter.github.io/hogan.js/).
 
 ```
 npm install @montyanderson/greenman
