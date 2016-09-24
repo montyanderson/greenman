@@ -1,0 +1,25 @@
+{
+  "name": "@montyanderson/greenman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montyanderson/greenman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montyanderson/greenman/issues"
+  },
+  "homepage": "https://github.com/montyanderson/greenman#readme",
+  "dependencies": {
+    "hogan.js": "^3.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
