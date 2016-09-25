@@ -27,3 +27,5 @@ const dashboard = new Greenman(`
 dashboard.render({ user: "Monty! "});
 
 ```
+
+Please go to the [Github repository](https://github.com/montyanderson/greenman) for more up-to-date information.
