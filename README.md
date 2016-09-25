@@ -4,6 +4,8 @@
 
 View manager for [Mustache](https://mustache.github.io/) templates using [hogan.js](https://twitter.github.io/hogan.js/).
 
+## Usage
+
 ```
 npm install @montyanderson/greenman
 ```
@@ -25,7 +27,20 @@ const dashboard = new Greenman(`
 });
 
 dashboard.render({ user: "Monty! "});
+```
 
+## Setup
+
+As Greenman is written in ES6, it requires you to use babel with global turned on.
+
+* For instance with browserify + babelify
+
+``` javascript
+browserify("./scripts/index.js")
+	.transform("babelify", {
+		presets: ["es2015"],
+		global: true
+	})
 ```
 
 Please go to the [Github repository](https://github.com/montyanderson/greenman) for more up-to-date information.
