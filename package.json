@@ -1,7 +1,7 @@
 {
   "name": "@montyanderson/greenman",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "View manager for Mustache templates using hogan.js.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
